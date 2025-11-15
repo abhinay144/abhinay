@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color:antiquewhite;
+    padding-top: 60px;
+    list-style: none;
+}
+#text1{
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+}
+#text2{
+    color:blue;
+    font-size: 33px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px ;
+    height: 50px;
+    width: 160px;
+    margin-left: 70px;
+    background-color: rgb(0, 128, 49);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20PX;
+    margin-bottom: 6PX;
+}
+ul li a{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: brown;
+}
+#Home{
+    border: solid 1px;
+    height: 750px;
+    background-color: gainsboro;
+    padding-left: 335px;
+}
+#text3{
+    color: red;
+    font-size: 58px;
+}
+#text4{
+    color: olive;
+    font-size: 50px;
+}
+#text5{
+    font-size: 33px;
+}
+#bt1{
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    border-radius: 20px;
+    color: bisque;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#About{
+    border: solid 1px;
+    height: 750px;
+    background-color: rebeccapurple
+    padding-left: 300px;
+}
+#aboutme{
+    font-size: 80px;
+    color: olive;
+}
+html{
+    scroll-behavior: smooth;
+}
